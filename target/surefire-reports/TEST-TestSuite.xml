@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="27.76" tests="15" errors="0" skipped="4" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\opt\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\opt\apache-maven-3.9.9/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Devn=aniirudha"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\opt\apache-maven-3.9.9"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+7-LTS-222"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="evn" value="aniirudha"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\Sep24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\eclipse-workspace\Sep24"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11\bin;C:\opt\apache-maven-3.9.9\bin;C:\Users\HP\scoop\shims;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.23+7-LTS-222"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="classworlds.conf" value="C:\opt\apache-maven-3.9.9\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\opt\apache-maven-3.9.9\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.qa.opencart.pages.test.LoginPageTest" time="18.798">
+    <failure message="Browsing context has been discarded&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a7a52c34-a1fa-4ca7-9901-7a6596b1fec0, get {url=https://naveenautomationlabs.com/opencart/index.php?route=account/login}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17328, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: a7a52c34-a1fa-4ca7-9901-7a6596b1fec0" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a7a52c34-a1fa-4ca7-9901-7a6596b1fec0, get {url=https://naveenautomationlabs.com/opencart/index.php?route=account/login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17328, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a7a52c34-a1fa-4ca7-9901-7a6596b1fec0
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+I am in onStart method Account Page Test
+Test Suite started!
+I am in onStart method Login Page Test
+Test Suite started!
+Running test cases on Env: null
+no env is passed....Running tests on QA env...
+Running test cases on Env: null
+no env is passed....Running tests on QA env...
+firefox
+firefox
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 28, 2024 7:42:57 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Oct 28, 2024 7:42:57 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.pages.test.LoginPageTest" time="0">
+    <skipped message="Browsing context has been discarded&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a7a52c34-a1fa-4ca7-9901-7a6596b1fec0, get {url=https://naveenautomationlabs.com/opencart/index.php?route=account/login}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17328, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: a7a52c34-a1fa-4ca7-9901-7a6596b1fec0"/>
+  </testcase>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.pages.test.LoginPageTest" time="19.515">
+    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a7a52c34-a1fa-4ca7-9901-7a6596b1fec0, screenshot {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17328, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: a7a52c34-a1fa-4ca7-9901-7a6596b1fec0" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a7a52c34-a1fa-4ca7-9901-7a6596b1fec0, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17328, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a7a52c34-a1fa-4ca7-9901-7a6596b1fec0
+</failure>
+    <system-out><![CDATA[I am in onTestSkipped method forgotPwdLinkExistTest skipped
+forgotPwdLinkExistTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.pages.test.LoginPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestFailure method forgotPwdLinkExistTest failed
+Screenshot captured for test case:forgotPwdLinkExistTest
+]]></system-out>
+  </testcase>
+  <testcase name="accPageHeadersCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.327"/>
+  <testcase name="accPageHeadersValueTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.139"/>
+  <testcase name="accPageTitleTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.013"/>
+  <testcase name="accPageURLTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.019"/>
+  <testcase name="isLogoutLinkExistTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.449"/>
+  <testcase name="searProducthCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="2.351"/>
+  <testcase name="searProducthCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="2.234"/>
+  <testcase name="searProducthCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0">
+    <skipped message="WebDriver session does not exist, or is not active&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, executeScript {script=arguments[0].style.backgroundColor = &apos;rgb(0,200,0)&apos;, args=[{element-6066-11e4-a52e-4f735466cecf=069dbc40-4ba1-4465-b467-db405410efac}]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d"/>
+    <system-out><![CDATA[I am in onTestSuccess method searProducthCountTest succeed
+searProducthCountTest passed!
+I am in onTestStart method searProducthCountTest start
+searProducthCountTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="searProducthCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0">
+    <skipped message="Failed to decode response from marionette&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, findElement {using=name, value=search}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d"/>
+    <system-out><![CDATA[I am in onTestSkipped method searProducthCountTest skipped
+searProducthCountTest skipped!
+I am in onTestStart method searProducthCountTest start
+searProducthCountTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="searProducthCountTest" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.047">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, screenshot {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d
+</failure>
+    <system-out><![CDATA[I am in onTestSkipped method searProducthCountTest skipped
+searProducthCountTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.pages.test.AccountpageTest" time="0.171">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, quit {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [40f3a083-d21a-4ec3-afc2-82ea5bef665d, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9528, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 40f3a083-d21a-4ec3-afc2-82ea5bef665d
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method searProducthCountTest failed
+Screenshot captured for test case:searProducthCountTest
+]]></system-out>
+  </testcase>
+</testsuite>

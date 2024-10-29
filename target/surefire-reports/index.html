@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Opencart_App_Test_Regression_Suite" class="panel Opencart_App_Test_Regression_Suite">
+        </div> <!-- panel Opencart_App_Test_Regression_Suite -->
+        <div panel-name="test-xml-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\Sep24\src\test\resources\TestRunner\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Opencart App Test Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.TestAllureListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.pages.test.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page Test --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Account Page Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.pages.test.AccountpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account Page Test --&gt;
+&lt;/suite&gt; &lt;!-- Opencart App Test Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Account Page Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Opencart_App_Test_Regression_Suite');
+function tableData_Opencart_App_Test_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Opencart_App_Test_Regression_Suite']= { tableData: data, tableDiv: 'times-div-Opencart_App_Test_Regression_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Opencart_App_Test_Regression_Suite">
+              </div> <!-- times-div-Opencart_App_Test_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Opencart App Test Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Opencart_App_Test_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.pages.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.pages.test.AccountpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">accPageSetup</span>
+                <span class="method-start">13373 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">accPageHeadersCountTest</span>
+                <span class="method-start">16939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageHeadersValueTest</span>
+                <span class="method-start">17285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageTitleTest</span>
+                <span class="method-start">17427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageURLTest</span>
+                <span class="method-start">17443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isLogoutLinkExistTest</span>
+                <span class="method-start">17466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searProducthCountTest(MacBook)</span>
+                <span class="method-start">17925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searProducthCountTest(iMac)</span>
+                <span class="method-start">20266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searProducthCountTest(Apple)</span>
+                <span class="method-start">22513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searProducthCountTest(Apple)</span>
+                <span class="method-start">23437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23476 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
