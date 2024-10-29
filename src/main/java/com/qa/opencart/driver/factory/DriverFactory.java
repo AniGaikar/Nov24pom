@@ -54,7 +54,7 @@ public class DriverFactory {
 			break;
 		}
 		default: {
-			System.out.println("incorrect browser name enter correct name");
+			System.out.println("incorrect browser enter correct name");
 		}
 			break;
 		}
